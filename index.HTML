@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./my-style.css">
+        <title>
+        KOSEN Taro’s Page
+        </title>
+        </head>
+<body>
+    <h1> 高専太郎のページにようこそ！ </h1>
+    <h2 class="red"> 目次 </h2>
+    <ul class="bold-list">
+    <li><a href="#自己紹介">自己紹介</a></li>
+    <li><a href="#学校生活">学校生活について</a></li>
+    <li><a href="#スポット">地元のおすすめスポットランキング
+    </a></li>
+    <li><a href="#リンク">リンク</a></li>
+    </ul>
+    <h2 id="自己紹介"> 自己紹介 </h2>
+    
+    <p>
+    こんにちは。高専太郎といいます。<br>鈴鹿高専電子情報工学科の１年生
+    です。
+    </p>
+    
+    <p>
+    生まれも育ちも三重県伊勢市です。
+    </p>
+
+    <hr>
+
+    <h2 id="学校生活について"> 学校生活について </h2>
+
+    <ul>
+        <li> 授業 </li>
+        <li> 部活 </li>
+        <li> 行事 </li>
+         鈴鹿高専には楽しい行事がたくさんあります！
+         <ul>
+         <li> 高専祭 </li>
+         <li> 研修旅行 </li>
+         <li> 体育祭 </li>
+         </ul>
+    </ul>
+
+    <h2 id="スポット"> 地元のおすすめスポットランキング </h2>
+
+     
+    <ol>
+        <li> 伊勢神宮 </li>
+        <figure>
+            <img src="./sample1.jpg" width="400" height="300"
+            alt="伊勢神宮外宮の奉納舞台">
+            <figcaption>
+            私の大好きな<span class="hilight-blue">奉納舞台</span>です！（お宮じゃなくてすみません汗）<br>
+            外宮に行ったときは必ず見に行きます^^
+            </figcaption>
+            </figure>
+        <li> 朝熊山展望台 </li>
+        <figure>
+            <video controls muted width="400" height="300"
+            controlslist="nodownload" oncontextmenu="return false;">
+            <source src="./sample.mp4" type="video/mp4">
+            <p>ご使用のブラウザではサポートされていません</p>
+            </video>
+            <figcaption>
+            景色はこんな感じです。ちょっとだけ映ってますが、
+            展望台付近ではトレッキングも楽しめます！
+            </figcaption>
+            </figure>
+        <li> 夫婦岩 </li>
+    </ol>
+
+    <hr>
+    <h2 id="リンク"> リンク </h2>
+    <a href="https://www.suzuka-ct.ac.jp/">鈴鹿高専</a>
+    <h2> アンケートにご協力ください </h2>
+    
+<form>
+    <h3>このページは分かりやすかったですか？</h3>
+    <input type="radio" name="アンケート">分かりやすい
+    <input type="radio" name="アンケート">まあ分かりやすい
+    <input type="radio" name="アンケート">少し分かりにくい
+    <input type="radio" name="アンケート">分かりにくい
+    <h3>その他お気づきの点や質問・ご意見等ございましたら
+        以下のフォームより送信下さい。</h3>
+        <textarea placeholder="こちらにご記入下さい．"
+        cols="50" rows="5"></textarea>
+        <h3>よろしければ送信をクリックしてください．</h3>
+        <input type="button" value="送信" onclick="message()">
+    </form>
+
+<script>
+        function message(){
+        alert("ご協力ありがとうございました！");
+        }
+
+function omikuji(){
+    var r = Math.random() * 100
+    if(r <= 5){ alert("大凶です"); }
+    else if(r <= 15){ alert("凶です"); }
+    else if(r <= 50){ alert("小吉です"); }
+    else if(r <= 85){ alert("中吉です"); }
+    else if(r <= 95){ alert("吉です"); }
+    else{ alert("大吉です"); }
+    }
+</script> 
+<h3>おみくじをどうぞ</h3>
+<form>
+<input type="button" value="おみくじ" onclick="omikuji()">
+</form>
+    <hr>
+    <address>
+    連絡先 (email アドレス): r06i00 AT suzuka.kosen-ac.jp
+    (AT は半角の「＠」に変換して下さい)
+    </address>
+
+</body>
+
+</html> 
