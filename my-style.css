@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    color: blue;
+    /*background-color: lightcyan;*/
+    /*background: linear-gradient(50deg, green, lightgreen, white);*/
+    background: url();
+
+    } 
+h1{
+        color: rgb(17, 16, 16);
+        background-color: rgb(243, 136, 14);
+        font-size: 4em;
+    } 
+h2{
+        font-size: 2em; /* 1em がブラウザのデフォルト文字サイズ*/
+        /*text-align: center;
+     }
+ .red{
+        color: red;
+     }
+.hilight-blue{
+        background-color: aqua;
+    }
+.bold-list li{
+        font-weight: bold;
+        text-decoration: underline;
+    }     
+a:hover{
+        color: yellow;
+    }
+a:active{
+        font-size: 4em;
+    } 
+a:visited{
+        color: grey;
+        } 
